@@ -1,0 +1,32 @@
+# Kikomusa roadmap
+- [x] Make the shop deployable on Netlify: photos bundled in the site, build config, owner guide (DEPLOY-NETLIFY.md)
+- [x] Land the shopper on their receipt after a payment screenshot instead of an empty cart
+- [x] Verify signed-in checkout, screenshot submission, receipt and admin order deletion on the deployable build
+- [x] Replace customer mobile login with email and add password recovery (reset request accepted; inbox link delivery not verified)
+- [x] Open admin after verified owner sign-in from customer portal; remove admin forgot-password and footer link
+- [x] Add printable order receipts to customer checkout, accounts and admin orders (saved receipt and PDF rendering verified)
+- [x] Put the last 20 products first, preserving their original sequence
+- [x] Recheck photo resolution and securely repair admin credentials
+- [x] Remove the original six unpriced candles
+- [x] Remove product photo cropping, magnification and detail-page enlargement
+- [ ] Restore finer detail in small catalogue photos (blocked: higher-resolution originals needed)
+- [x] Set the owner's requested admin password via secure account management and verify password sign-in
+- [x] AI "You may also like" on product pages
+- [x] 22 new candles with per-piece prices; mobile-number customer login; owner admin account
+- [x] Import 32 unique uploaded catalogue products with exact prices and photos
+- [x] Require fragrance choice on all add-to-cart buttons and support colour notes per cart item
+- [x] Address checkout with QR payment and mandatory screenshot implemented
+- [x] Admin setup and password recovery implemented; payment order review added
+- [x] Storefront: home, shop, product pages, cart (saved in browser), story, contact, policies, WhatsApp
+- [x] Remove the 6 original candles with pending prices as requested
+- [x] Add uploaded catalogue products
+- [x] Products database + admin panel (products: add/edit/hide/delete, photos, stock, featured)
+- [x] Make admin access visible and add every candle to cart without inventing unconfirmed prices
+- [ ] Verify signed-in admin editing (password sign-in and product reads verified; editing not exercised)
+- [x] Admin orders with addresses, scent/colour notes and payment proof review
+- [ ] Customer dashboard stats and phone OTP (not requested this turn)
+- [x] Customer email sign-in and order history
+- [ ] Razorpay (blocked: Razorpay keys); manual QR payment implemented
+- [x] Printable receipts with Save PDF
+- [ ] Order emails (not requested)
+- [ ] Real policy texts (blocked: owner)

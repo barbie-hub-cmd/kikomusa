@@ -1,0 +1,19 @@
+# Netlify deploy config for the Kikomusa candle shop.
+#
+# `NETLIFY=true` (set by Netlify) makes vite.config.ts build the Netlify serverless
+# target, which writes the server to .netlify/functions-internal and the static
+# site (including /product-images) to dist/.
+#
+# Required site environment variables (Site configuration → Environment variables):
+#   SUPABASE_URL              the shop's backend address
+#   SUPABASE_PUBLISHABLE_KEY  the shop's public backend key
+# Optional:
+#   LOVABLE_API_KEY           enables AI "You may also like" picks
+
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+[build.environment]
+  BUN_VERSION = "1.4.4"
+  NODE_VERSION = "22"
